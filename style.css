@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'ohio';
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'ohio2';
+    src: url(Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'ohio1';
+    src: url(Fonts/Roboto-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ohio1';
+}
+#clear{
+    clear: both;
+    width: 100%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+}
+label::after{
+	content: "\a";
+    white-space: pre;
+}
+.main_in div{
+    height: 7em;
+}
+h3{
+    font-size: 18px;
+    font-family: 'ohio';
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+input, select{
+    padding: 5px;
+    outline: none;
+    border-width: 0px 0px 2px;
+    margin-bottom: 10px;
+    width: 96%;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    margin-right: 0.5em;
+}
+#bar{
+    position: relative;
+	float: left;
+	width: 15%;
+	height: 100%;
+	background-color: white;
+}
+#logo{
+    display: flex;
+    color: #52ae30;
+    margin-left: 0.8em;
+    align-items: center;
+    height: 3em;
+    font-family: 'ohio';
+    font-size: 1.7em;
+}
+div .bar_item{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    height: 3em;
+    font-family: 'ohio';
+    font-size: 1.2vw;
+}
+.barel{
+    margin-left: 1em;
+}
+#ok{
+	float: left;
+	height: 100%;
+	background-color: lightgrey;
+	width: 85%;
+}
+#top{
+    height: 9%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#top span{
+    display: inline;
+    font-size: 30px;
+}
+.ime{
+    font-family: 'ohio';
+    font-size: 30px;
+}
+/*Znotrajni del*/
+#obroba{
+    background: white;
+    height: auto;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+/*zgornji notranji del*/
+#ob_top{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+}
+#ob_right{
+    position: absolute;
+    right: 20px;
+	top: 20px;
+    font-family: 'ohio';
+    font-size: 0.9em;
+}
+#ob_left{
+    position: absolute;
+    left: 20px;
+	top: 20px;
+    width: 20%;
+    height: 30%;
+	font-size: 25px;
+	font-family: 'ohio';
+}
+#ob_mid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+}
+
+/*bar znack*/
+.znacka{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    float: left;
+    padding-left: 2em;
+}
+.znacka_besedilo{
+	line-height: 50px;
+    font-family: 'ohio2';
+}
+hr{
+    margin-left: 3%;
+    width: 94%;
+}
+#bar2{
+    position: absolute;
+    bottom: 10;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #52ae30;
+    border-radius: 8px;
+    color: white;
+}
+#bar2 img{
+    margin-left: 1em;
+}
+.znacka_besedilo:hover,
+.znacka_besedilo:active{
+    color: #52ae30;
+
+}
+
+.main{
+    float: left;
+    /*height: 84%;*/
+    height: auto;
+    width: 32.9%;
+	margin-top: 5px;
+    font-size: 0.6em;
+    color: grey;
+    background: white;
+    margin-left: 5px;
+}
+.main_in{
+	margin-left: 20px;
+}
+div .broken{
+    position: relative;
+    height: 3.3em;
+    font-size: 1.2em;
+    margin-bottom: 3em;
+}
+.b1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.b2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.numb{
+    font-size: 1.3em;
+    font-family: 'ohio';
+    color: black;
+}
+.b3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.b4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#mod{
+    width: 31%;
+    display: inline-block;
+    margin-right: 10px;
+}
+#ref{
+    width: 65%;
+    display: inline-block;
+}
+#check{
+    margin-top: 2em;
+    height: 7em;
+}
+#nujno_placilo{
+	height: 1.5em;
+    width: 1.5em;
+    margin-bottom: 0px;
+}
+#nujno{
+    font-size: 1.5em;
+    margin-left: 1em;
+    position: absolute;
+    margin-top: 0.1em;
+}
+#before_sub{
+    height: 6em;
+}
+#sub{
+    margin-top: 3em;
+}
+#shrani {
+    width: 59%;
+    height: auto;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#placaj{
+    margin-left: 10px;
+    width: 35%;
+    height: auto;
+    background-color: #52ae30;
+    align-items: center;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color:white;
+}
+/*Premikanje label*/
+.insert input{
+    margin-top: 1em;
+}
+.insert{
+	position: relative;
+}
+.insert label{
+    position: absolute;
+    top: 1.8em;
+    font-size: 1.3em;
+    left: 0em;
+    pointer-events: none;
+}
+.insert input:focus ~ label,
+.insert input:valid ~ label{
+    transform: translate(0px, -2em);
+    font-size: 1em;
+}
+.insert input[disabled] ~ label{
+    transform: translate(0px, -2em);
+    font-size: 1em;
+}
+/*Urnik*/
+#urnik{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'ohio';
+}
+p{
+    padding-bottom: 1em;
+}
+a{
+    color: #52ae30;
+    font-family: 'ohio';
+}
